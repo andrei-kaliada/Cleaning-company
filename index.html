@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="../Cleaning-company/css/style.css">
     <link rel="stylesheet" href="../Cleaning-company/bootstrap-4.4.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../Cleaning-company/slick/slick.css">
+    <link rel="stylesheet" href="../Cleaning-company/slick/slick-theme.css">
     <title>Клининговая компания</title>
 </head>
 <body>
@@ -43,7 +45,7 @@
                     </div>
                     <div class="col-md-3 header__btn">
                         <div class="header__btn-call">
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                            <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
                                 заказать звонок
                               </button>
                         </div>
@@ -69,7 +71,7 @@
                     </div>
                     <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-secondary">Save changes</button>
                     </div>
                 </div>
                 </div>
@@ -105,7 +107,9 @@
             </section>
         </div>
         
-        <section class="section-anchors">
+         <!-- Anchors section -->
+        <div class="container-fluid ">
+            <section class="section-anchors">
             <div class="container">
                 <div class="row">
                     <div class="col-md-3">
@@ -143,14 +147,19 @@
                 </div>
             </div>
         </section>
-        <section class="section-cleaning">
+        </div>
+         <!-- End Anchors section -->
+
+        <!-- Cleaning section -->
+        <div class="container-fluid wrapper">
+             <section class="section-cleaning clean">
             <div class="container">
                 <div class="row">
                     <!--what we do start-->
                     <div class="col-md-12">
                         <div class="row">
                             <div class="col-md-12">
-                                <h4 class="hs_heading" id="cleaning">Уборка</h4>
+                                <h2 class="hs_heading" id="cleaning">Уборка</h2>
                             </div>
                         </div>
                         <div class="row">
@@ -158,7 +167,6 @@
                                 <div class="hs_tab" style="display: flex;">
                                     <div class="col-md-4 col-sm-12 nav-wrapper">
                                         <ul id="myTab" class="nav nav-tabs">
-                                        
                                             <li class="active"><a href="#services1" data-toggle="tab">квартира</a></li>
                                             <li><a href="#services2" data-toggle="tab">коттедж</a></li>
                                             <li><a href="#services3" data-toggle="tab">коммерческая недвижимость</a></li>
@@ -273,14 +281,36 @@
                 </div>
             </div>
         </section>
-        <section class="section-cleaning">
+        </div>
+        <!-- End Cleaning section -->
+       
+        <!-- Express Wash section -->
+        <div class="container-fluid">
+            <section class="express">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="express__info express__cleaning">
+                            <h2>Експресс уборка 900 рублей</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium suscipit aut dolores vitae a odio reprehenderit. Debitis voluptates officia, amet sed aliquam voluptatibus facere numquam eius nulla quo voluptate blanditiis?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+        <!--End Express Wash section -->
+        
+        <!-- Washing section -->
+        <div class="container-fluid wrapper">
+            <section class="section-cleaning wash">
             <div class="container">
                 <div class="row">
                     <!--what we do start-->
                     <div class="col-md-12">
                         <div class="row">
                             <div class="col-md-12">
-                                <h4 class="hs_heading" id="wash">Мойка</h4>
+                                <h2 class="hs_heading" id="wash">Мойка</h2>
                             </div>
                         </div>
                         <div class="row">
@@ -290,7 +320,7 @@
                                         <ul id="myTab" class="nav nav-tabs">
                                             <li class="active"><a href="#wash1" data-toggle="tab">окна</a></li>
                                             <li><a href="#wash2" data-toggle="tab">балконы</a></li>
-                                            <li><a href="#wash3" data-toggle="tab">лоджии</a></li>
+                                            <li><a href="#wash2" data-toggle="tab">лоджии</a></li>
                                             <li><a href="#wash4" data-toggle="tab">фасады</a></li>
                                         </ul>
                                     </div>
@@ -344,7 +374,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="tab-pane fade" id="wash3">
+                                            <div class="tab-pane fade" id="wash2">
                                                 <div class="row">
                                                     <div class="col-md-12">
                                                         <div class="bg-slider" style="background-image:url(image/sliderImg-3.jpg);">
@@ -378,7 +408,7 @@
                                                                  <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Генеральная</a>
                                                                  <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Послестроительна</a>
                                                                 </div>
-                                                                <div class="col-lg-4 col-md-5 col-sm-122">
+                                                                <div class="col-lg-4 col-md-5 col-sm-12">
                                                                  <div class="bg-slider__size">
                                                                      <p class="bg-slider__size-text">50 руб.м2</p>
                                                                      <div class="bg-slider__size-btn">
@@ -402,6 +432,258 @@
                 </div>
             </div>
         </section>
+        </div>
+        <!-- End Washing section -->
+        
+        <!-- Express Wash section -->
+        <div class="container-fluid">
+            <section class="express">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="express__info express__wash">
+                            <h2>Експресс мойка 900 рублей</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium suscipit aut dolores vitae a odio reprehenderit. Debitis voluptates officia, amet sed aliquam voluptatibus facere numquam eius nulla quo voluptate blanditiis?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+        <!--End Express Wash section -->
+        
+        <!-- dryCleaning section -->
+        <div class="container-fluid wrapper">
+           <section class="section-cleaning dryCleaning">
+            <div class="container">
+                <div class="row">
+                    <!--what we do start-->
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h2 class="hs_heading" id="wash">Химчистка</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="hs_tab" style="display: flex;">
+                                    <div class="col-md-4 col-sm-12 nav-wrapper">
+                                        <ul id="myTab" class="nav nav-tabs">
+                                            <li class="active"><a href="#dryCleaning1" data-toggle="tab">мягая мебель</a></li>
+                                            <li><a href="#dryCleaning2" data-toggle="tab">ковролин</a></li>
+                                            <li><a href="#dryCleaning3" data-toggle="tab"></a></li>
+                                            <li><a href="#dryCleaning4" data-toggle="tab"></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-8 col-sm-12">
+                                        <div id="myTabContent" class="tab-content">
+                                            <div class="tab-pane fade in active show" id="dryCleaning1">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="bg-slider" style="background-image:url(image/sliderImg-1.jpg);">
+                                                           <div class="row">
+                                                               <div class="col-lg-8 col-md-7 col-sm-12">
+                                                                <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Ежедневная</a>
+                                                                <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Генеральная</a>
+                                                                <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Послестроительна</a>
+                                                               </div>
+                                                               <div class="col-lg-4 col-md-5 col-sm-12">
+                                                                <div class="bg-slider__size">
+                                                                    <p class="bg-slider__size-text">50 руб.м2</p>
+                                                                    <div class="bg-slider__size-btn">
+                                                                        <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">заказать</a>
+                                                                         <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">подробнее</a>
+                                                                    </div>
+                                                                </div>
+                                                               </div>
+                                                           </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="dryCleaning2">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="bg-slider" style="background-image:url(image/sliderImg-2.jpg);">
+                                                            <div class="row">
+                                                                <div class="col-lg-8 col-md-7 col-sm-12">
+                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Ежедневная</a>
+                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Генеральная</a>
+                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Послестроительна</a>
+                                                                </div>
+                                                                <div class="col-lg-4 col-md-5 col-sm-12">
+                                                                 <div class="bg-slider__size">
+                                                                     <p class="bg-slider__size-text">50 руб.м2</p>
+                                                                     <div class="bg-slider__size-btn">
+                                                                         <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">заказать</a>
+                                                                         <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">подробнее</a>
+                                                                     </div>
+                                                                 </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--what we do end--> 
+                </div>
+            </div>
+        </section> 
+        </div>
+        <!-- End dryCleaning section -->
+
+
+        <!-- Express Wash section -->
+        <div class="container-fluid">
+              <section class="express">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="express__info express__dryCleaning">
+                            <h2>Експресс химчистка 900 рублей</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium suscipit aut dolores vitae a odio reprehenderit. Debitis voluptates officia, amet sed aliquam voluptatibus facere numquam eius nulla quo voluptate blanditiis?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+         <!--End Express Wash section -->
+
+         <div class="container-fluid wrapper">
+            <section class="section-cervice-buttons">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="section-cervice-buttons__title">
+                                спецуборка
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-md-6 ">
+                            <div class="btn-group-vertical buttons-wrapper">
+                                <button type="button" class="btn btn-secondary">после пожара</button>
+                                <button type="button" class="btn btn-secondary">после трупа</button>
+                                <button type="button" class="btn btn-secondary">озонирование</button>
+                                <button type="button" class="btn btn-secondary">чистка пола</button>
+                              </div>
+                        </div>
+                        <div class="col-md-6 ">
+                            <div class="btn-group-vertical buttons-wrapper">
+                                <button type="button" class="btn btn-secondary">покос травы</button>
+                                <button type="button" class="btn btn-secondary">уборка снега</button>
+                                <button type="button" class="btn btn-secondary">услуги грузчиков</button>
+                                <button type="button" class="btn btn-secondary">чистка пола</button>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+         </div>
+
+        <!-- Express Related-products section -->
+        <div class="container-fluid">
+            <section class="related-products">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-md-12">
+                          <div class="related-products__title">
+                              <h2>Сопутствующие товары</h2>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                        <div class="related-products__slider">
+                            <div class="sl">
+                                <div class="sl__slide">
+                                    <img  src="../Cleaning-company/image/goods1.jpg" alt="slide1" class="sl__img">
+                                    <div class="sl__text">
+                                        <h4 class="erelated-products__slider-title">Товар 1</h4>
+                                        <p class="erelated-products__price">цена 1900 руб.</p>
+                                    </div>
+                                </div>
+                                <div class="sl__slide">
+                                    <img src="../Cleaning-company/image/goods2.jpg" alt="slide2" class="sl__img">
+                                    <div class="sl__text">
+                                        <h4 class="erelated-products__slider-title">Товар 2</h4>
+                                        <p class="erelated-products__price">цена 1900 руб.</p>
+                                    </div>
+                                </div>
+                                <div class="sl__slide">
+                                    <img src="../Cleaning-company/image/goods3.jpg" alt="slide3" class="sl__img">
+                                    <div class="sl__text">
+                                        <h4 class="erelated-products__slider-title">Товар 3</h4>
+                                        <p class="erelated-products__price">цена 1900 руб.</p>
+                                    </div>
+                                </div>
+                                <div class="sl__slide">
+                                    <img src="../Cleaning-company/image/goods4.jpg" alt="slide4" class="sl__img">
+                                    <div class="sl__text">
+                                        <h4 class="erelated-products__slider-title">Товар 4</h4>
+                                        <p class="erelated-products__price">цена 1900 руб.</p>
+                                    </div>
+                                </div>
+                                <div class="sl__slide">
+                                    <img src="../Cleaning-company/image/goods5.jpg" alt="slide5" class="sl__img">
+                                    <div class="sl__text">
+                                        <h4 class="erelated-products__slider-title">Товар 5</h4>
+                                        <p class="erelated-products__price">цена 1900 руб.</p>
+                                    </div>
+                                </div>
+                                <div class="sl__slide">
+                                    <img src="../Cleaning-company/image/goods6.jpg" alt="slide6" class="sl__img">
+                                    <div class="sl__text">
+                                        <h4 class="erelated-products__slider-title">Товар 6</h4>
+                                        <p class="erelated-products__price">цена 1900 руб.</p>
+                                    </div>
+                                </div>
+                                <div class="sl__slide">
+                                    <img src="../Cleaning-company/image/goods7.jpg" alt="slide7" class="sl__img">
+                                    <div class="sl__text">
+                                        <h4 class="erelated-products__slider-title">Товар 7</h4>
+                                        <p class="erelated-products__price">цена 1900 руб.</p>
+                                    </div>
+                                </div>
+                                <div class="sl__slide">
+                                    <img src="../Cleaning-company/image/goods8.jpg" alt="slide8" class="sl__img">
+                                    <div class="sl__text">
+                                        <h4 class="erelated-products__slider-title">Товар 8</h4>
+                                        <p class="erelated-products__price">цена 1900 руб.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+          </section>
+          </div>
+           <!--End Related Products section -->
+
+          <!-- Express Wash section -->
+        <div class="container-fluid wrapper">
+            <section class="section-clients">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="section-clients__title">
+                          <h2>Наши клиенты</h2>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      </div>
+       <!--End Express Wash section -->
         
     </main>
     <footer>
@@ -416,7 +698,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="section-footer__contacts">
                             <div class="section-footer__contacts-title">
-                                <h3>Контакты</h3>
+                                <h2>Контакты</h2>
                             </div>
                             <div class="section-footer__contacts-address">
                                 <address>
@@ -466,5 +748,7 @@
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="../Cleaning-company/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+    <script src="../Cleaning-company/slick/slick.min.js"></script>
+    <script src="../Cleaning-company/js/slickSlider.js"></script>
 </body>
 </html>

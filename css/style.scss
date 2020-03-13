@@ -8,6 +8,9 @@
 @import "media";
 @import "sectionInfo";
 @import "sectionAnchor";
+@import "express";
+@import "sectionServiceBtn";
+@import "relatedProducts";
 
 
 html {
@@ -26,4 +29,10 @@ main {
 
 h1,h2,h3,h4,p,a,label,button{
   font-family: "Nunito";
+}
+
+
+
+.wrapper{
+  background-color:#fcfcfc;
 }
