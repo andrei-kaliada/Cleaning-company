@@ -11,6 +11,8 @@
 @import "express";
 @import "sectionServiceBtn";
 @import "relatedProducts";
+@import "ourClients";
+@import "aboutUs";
 
 
 html {
@@ -29,6 +31,10 @@ main {
 
 h1,h2,h3,h4,p,a,label,button{
   font-family: "Nunito";
+}
+
+p{
+  font-size: 18px;
 }
 
 

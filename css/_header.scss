@@ -2,6 +2,38 @@
     margin: 10px 0;
 }
 
+.navigationPanel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0;
+    transition: 0.5s all;
+    
+    ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        li{
+            transition: 0.5s all;
+            font:0 "Nunito";
+            a{
+                text-decoration: none;
+                color:#212529;
+            }
+        }
+    }
+}
+
+.addNavigationPanel{
+    
+    height: 100px;
+    ul{
+        li{
+            font:24px "Nunito";
+        }
+    }
+}
+
 .header-wrapper {
     display: flex;
     align-items: center;
@@ -31,6 +63,11 @@
                     text-transform: uppercase;
                 }
             }
+        }
+
+        img{
+            width: 64px;
+            height: 64px;
         }
 
     }
