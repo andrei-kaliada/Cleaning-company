@@ -13,6 +13,10 @@
 @import "relatedProducts";
 @import "ourClients";
 @import "aboutUs";
+@import "form";
+@import "tablePrice";
+ //@import "foundation";
+@import "twentytwenty";
 
 
 html {
@@ -29,7 +33,7 @@ main {
     flex-grow: 1;
   }
 
-h1,h2,h3,h4,p,a,label,button{
+h1,h2,h3,h4,h5,p,a,label,button,th,td{
   font-family: "Nunito";
 }
 
@@ -42,3 +46,16 @@ p{
 .wrapper{
   background-color:#fcfcfc;
 }
+
+
+.single-item{
+  img{
+    width: 100%;
+    
+  }
+}
+
+.single-item__slide{
+  height: 600px;
+}
+

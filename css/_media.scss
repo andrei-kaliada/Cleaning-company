@@ -27,4 +27,37 @@
             flex-direction: column;
         }
     }
+
+    .section-anchors{
+        .anchors{
+
+            display: flex;
+            flex-direction: column;
+
+            li{
+
+                a{
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+ }
+
+ @media (max-width: 768px) { 
+
+    .section-anchors{
+        .anchors{
+
+            
+            li{
+
+                a{
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
+    }
  }
